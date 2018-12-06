@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.head-main{
+	background: url(../image/bg.png);
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 763px;
+}
+.page-nav{
+	height: 40px;
+	text-align: center;
+  position: relative;
+}
+.nav-item{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+  width: 1000px;
+  color: #53c3ae;
+  position: absolute;
+  left: 160px;
+  top: 50px;
+}
+.navmain a{
+  font-size: 15px;
+  font-family: "STHeiti";
+  color: rgb(151, 217, 204);
+  line-height: 0.75;
+  text-decoration: none;
+}
+
+.banner-main h1{
+  font-size: 100px;
+  font-family: "Arial Black";
+  color: rgb(73, 187, 165);
+  position: absolute;
+  line-height: 0.3;
+  top: 163px;
+  left: 205px;
+}
+.collect{
+  font-size: 36px;
+  font-family: "Arial Black";
+  color: rgb(73, 187, 165);
+  line-height: 0.5;
+  position: absolute;
+    left: 210px;
+    top: 230px;
+}
+.Efficient {
+  font-size: 60px;
+  font-family: "Ayuthaya";
+  color: rgb(73, 187, 165);
+  line-height: 0.3;
+  position: absolute;
+  left: 975.752px;
+  top: 377.5px;
+}
+.interested {
+  font-size: 60px;
+  font-family: "Avenir Next";
+  color: rgb(73, 187, 165);
+  line-height: 0.3;
+  position: absolute;
+  left: 1120.953px;
+  top: 437px;
+}
+.next{
+  position: absolute;
+  left: 665px;
+  top: 639px;
+  width: 57px;
+}
+li {
+    position: relative;
+    padding: 10px;
+    font-size: 24px;
+    color: #999;
+    transition: 0.1s all linear;
+    cursor: pointer;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #999;
+    transition: 0.2s all linear;
+}
+
+li:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition-delay: 0.1s;
+    border-bottom-color: #999;
+}
+
+li:hover ~ li::before {
+    left: 0;
+}
+
+li:active {
+    background: #999;
+    color: #fff;
+}
+
+
+
+
+
+
